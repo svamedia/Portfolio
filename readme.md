@@ -1,2 +1,2 @@
 # My Portfolio
-This is my portfolio
+This is where I will be showcasing my web developer journey.
