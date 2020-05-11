@@ -17,10 +17,10 @@ h1 {
   font-size: 4em;
 }
 
-/* h1, h2, h3, h5, footer, #additional-info {
-  text-align: center;
-} */
-
 .nav-link {
   font-size: 1.2rem;
+}
+
+ul {
+  list-style-type: none;
 }
