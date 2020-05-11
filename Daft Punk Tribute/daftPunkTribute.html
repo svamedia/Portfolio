@@ -16,15 +16,15 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container">
         <header>
-            <nav class="navbar navbar-expand-md navbar-dark bg-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <nav class="navbar navbar-expand-md navbar-dark bg-primary navbar-fixed-top">
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse float-right" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Music Videos<span class="sr-only">(current)</span></a>
                         </li>
@@ -42,7 +42,7 @@
             </nav>
         </header>
         <main id="main">
-            <div id="title">
+            <div id="title" class="pt-2">
                 <h1>Daft Punk</h1>
                 <p id="title-p">
                     "Around The World, One More Time..."
@@ -50,7 +50,7 @@
             </div>
             <div id="img-div">
                 <!--     <iframe id="image" width="853" height="505" src="https://www.youtube.com/embed/Hjqs8YIB7ys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                <img id="image"
+                <img class="img-fluid" id="image"
                     src="https://www.gannett-cdn.com/-mm-/47ee05fe6ed6de9499520b428d6d4ac63cebadd9/c=0-29-2430-1400/local/-/media/USATODAY/USATODAY/2014/02/04//1391533463000-XXX-DAFT-PUNK-MUS-BOOKS-JY-0322-61484316.JPG?width=660&height=373&fit=crop&format=pjpg&auto=webp"
                     alt="Daft punk posing with iconic masks.">
                 <p id="img-caption">The electronic dynamic duo posing with the iconic masks.</p>
@@ -121,11 +121,10 @@
                         target="_blank">
                         Listen</a>.</p>
             </div>
+            <footer>
+                <span class="footer-link">Created By: <a href="#">SVAMEDIA</a><span>
+            </footer>
     </div>
-    </main>
-    <footer>
-        <span class="footer-link">Created By: <a href="#">SVAMEDIA</a><span>
-    </footer>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
