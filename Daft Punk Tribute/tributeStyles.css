@@ -11,16 +11,17 @@
 body {
   line-height: 2.0;
   text-align: center;
+  background-color: azure;
 }
 
 h1 {
   font-size: 4em;
 }
 
-.nav-link {
-  font-size: 1.2rem;
-}
-
 ul {
   list-style-type: none;
+}
+
+.nav-link {
+  font-size: 1.2rem;
 }
