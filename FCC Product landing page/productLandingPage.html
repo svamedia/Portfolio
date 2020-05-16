@@ -16,19 +16,26 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <header id="header">
+    <!-- Main Content -->
+    <main>
+        <!-- <div class="container-fluid"> -->
+        <!-- Header -->
+        <header class="header" id="header">
             <!-- Nav bar start -->
             <nav class="navbar navbar-expand-md navbar-light bg-light navbar-fixed-top">
                 <!-- Company Brand -->
-                <a class="navbar navbar-brand" href="#header">
-                    <img id="header-img" src="https://gnln.com/wp-content/uploads/2019/03/puffco-peak_.png"
-                        alt="Puffco Logo">
-                </a>
-                <!-- Mobile collapse button -->
-                <button class="navbar-toggler" type="button">
-                    <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarMenu"></span>
-                </button>
+                <div class="flex-brand">
+                    <a class="navbar navbar-brand" href="#header">
+                        <img class="img-responsive" id="header-img" src="https://gnln.com/wp-content/uploads/2019/03/puffco-peak_.png"
+                            alt="Puffco Logo">
+                    </a>
+                </div>
+                <div class="collapse-btn">
+                    <!-- Mobile collapse button -->
+                    <button class="navbar-toggler" type="button">
+                        <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarMenu"></span>
+                    </button>
+                </div>
                 <!-- Inside collapse button  -->
                 <div class="collapse navbar-collapse" id="navbarMenu">
                     <!-- Navigation Items -->
@@ -40,25 +47,50 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#pricing">Pricing</a></li>
                     </ul>
-                    <!-- navbar collapse  -->
                 </div>
             </nav>
         </header>
 
+        <!-- Hero -->
+        <section class="hero">
+            Hero
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero placeat quam vitae hic similique
+                perspiciatis vero velit non, porro natus aspernatur, provident harum ab illo iusto error, quo sunt
+                aperiam.</p>
+        </section>
 
+        <div class="flex-container wrapper">
+            <!-- Video content -->
+            <section class="content">
+                Content
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, facilis soluta assumenda ipsum quisquam
+                    neque nemo cum maxime. Quisquam consequuntur, beatae quidem, nesciunt vero ut veritatis, fugit sunt
+                    eveniet officia rem ratione animi sed aliquam aut maxime minus tempore ab repudiandae maiores
+                    aliquid voluptatem magnam? Ipsam atque quam at tempore.
+                </p>
+            </section>
 
-
-        <!-- Video content -->
-
-        <!-- Product Features -->
+            <!--  Sidebar / Product Features -->
+            <aside class="sidebar">
+                Sidebar
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam mollitia at distinctio earum nisi
+                    facilis odio necessitatibus voluptatibus! Fugiat nesciunt aliquam at voluptas soluta excepturi
+                    beatae voluptatum debitis obcaecati? Deserunt, vero! Voluptatibus, qui placeat.
+                </p>
+            </aside>
+        </div>
 
         <!-- Email Form  -->
 
         <!-- Pricing -->
 
         <!-- Footer -->
+        <footer class="footer">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </footer>
+        <!-- </div> -->
+    </main>
 
-    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
