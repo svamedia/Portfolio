@@ -32,6 +32,10 @@ ul {
   border-bottom: 1.5px solid #d4af37;
 }
 
+.navbar-brand {
+  position: absolute;
+}
+
 .nav-link {
   font-size: 1.4rem;
 }
