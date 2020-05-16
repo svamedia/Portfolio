@@ -20,22 +20,44 @@ h1 {
   font-size: 4em;
 }
 
-
 ul {
   list-style-type: none;
 }
 
+.navbar {
+  height: 130px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/sva139601/image/upload/v1589403686/Daft%20Punk%20Tribute%20page/punkNav_lto7p4.jpg");
+  background-position: auto, center left;
+  border-bottom: 1.5px solid #d4af37;
+}
+
+.navbar-brand {
+  position: absolute;
+  z-index: -1;
+}
+
+.navbar-collapse {
+  z-index: 1;
+  display: flex;
+  flex-flow: column;
+}
+
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid #cdd0d7;
+  padding: 0;
 }
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/sva139601/image/upload/v1589300126/Daft%20Punk%20Tribute%20page/85a3b5690890276194a572a885dc8b50_kjcvqu.jpg");
   height: 100%;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  background-attachment: fixed;
+  background-position: auto, center center;
 }
 
 .hero-text {
@@ -46,5 +68,3 @@ ul {
   transform: translate(-50%, -50%);
   color: white;
 }
-
-

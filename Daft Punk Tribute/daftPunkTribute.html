@@ -18,7 +18,14 @@
 <body>
     <header>
         <!-- Navigation bar -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-primary">
+            <!-- navbar brand -->
+            <div class="navbar-brand ml-5 pt-4" id="daftPunkLogo">
+                <a href="#home">
+                    <img class="img-responsive" src="https://res.cloudinary.com/sva139601/image/upload/v1589410511/Daft%20Punk%20Tribute%20page/daftpunk-logopatch_sbnadq.png"
+                        alt="Daft Punk Logo">
+                </a>
+            </div>
             <!-- collapse button -->
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,16 +35,16 @@
             <!-- inside collapse button -->
             <div class="collapse navbar-collapse float-right" id="navbarNav">
 
-                <!-- navigation items -->
+                <!-- navigation links -->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item pr-4 active">
-                        <a class="nav-link" href="#">Videos<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item pr-4">
-                        <a class="nav-link" href="#">Tickets</a>
+                        <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item pr-2">
-                        <a class="nav-link" href="#">Listen</a>
+                        <a class="nav-link" href="#">Discography</a>
                     </li>
                 </ul>
             </div>
@@ -45,14 +52,14 @@
     </header>
 
     <!-- body background cover -->
-    <div class="hero-image">
+    <div class="hero-image" id="home">
         <div class="hero-text">
             <h1>Daft Punk</h1>
             <p id="title-p">"Around The World, One More Time..."</p>
             <button>Listen Now</button>
         </div>
     </div>
-    <hr>
+
     <!-- about section -->
     <div class="container">
         <div id="tribute-info">
@@ -83,9 +90,9 @@
                 2010 alongside its soundtrack album.
             </p>
         </div>
+        <hr>
         <div id="discography-info">
             <h3 id="disco-info">Discography</h3>
-            <hr>
             <h5>Studio Albums</h5>
             <ul>
                 <li>Homework (1997)</li>
