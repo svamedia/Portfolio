@@ -19,10 +19,15 @@ main {
 
 ul {
     text-align: center;
+    list-style-type: none;
 }
 
 ul li a {
     font-size: 1.3rem !important;
+}
+
+h5 {
+    padding-bottom: 7px;
 }
 
 .header {
@@ -89,16 +94,21 @@ ul li a {
 }
 
 .content {
+    display: flex;
     background: lightslategrey;
-    background-size: contain;
-    background-repeat: no-repeat;     
-    height: 50vh;
+    background-size: contain;   
+    height: auto;
 }
 
 .product-desc {
-    border: 1px solid black;
-    display: flex;
-    flex-flow: row;
+    flex-flow: column nowrap;
+    height: auto;
+    width: 100vw;
+    text-align: center;   
+}
+
+.product-desc ul {
+    text-align: left;
 }
 
 .sidebar {
@@ -110,13 +120,6 @@ ul li a {
     /* border: 1px solid #000000; */
     background: #616161;
 }
-
-.wrapper {
-    margin: auto;
-
-}
-
-
 
 /* Below is the original css code */
 /* #header-img {
