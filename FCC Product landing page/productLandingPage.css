@@ -28,6 +28,7 @@ ul li a {
 
 h5 {
     padding-bottom: 7px;
+    text-align: center;
 }
 
 .header {
@@ -95,8 +96,7 @@ h5 {
 
 .content {
     display: flex;
-    background: lightslategrey;
-    background-size: contain;   
+    background: lightslategrey;   
     height: auto;
 }
 
@@ -111,33 +111,26 @@ h5 {
     text-align: left;
 }
 
-.sidebar {
-    /* border: 1px solid #000000; */
-    background: #673ab7;
+.product-imgs {
+    background: lightslategrey;
+}
+
+.img-col {
+    padding: 5px;
+}
+
+.img-col-info {
+    margin: 50px auto auto auto;
+    padding-left: 20px;
 }
 
 .footer {
-    /* border: 1px solid #000000; */
     background: #616161;
 }
 
-/* Below is the original css code */
-/* #header-img {
-    max-height: 100%;
-    width: 17rem;
-}
-
-.navbar-brand {
-    margin: 0;
-    padding: 0;
-}
-
-.nav a {
-    font-size: 1.2rem;
-} */
 
 @media screen and (min-width: 640px) {
-    .flex-container {
+    .flex-container, .img-container {
         display: flex;
     }
 }
