@@ -103,7 +103,7 @@ h5 {
 .product-desc {
     flex-flow: column nowrap;
     height: auto;
-    width: 100vw;
+    margin: auto;
     text-align: center;   
 }
 
@@ -122,8 +122,10 @@ h5 {
     padding: 5px;
 }
 
-.img-col figure img {
+.img-col, figure, #gold-atomizer {
     border-radius: 50%;
+    width: 300px;
+    margin: auto;
 }
 
 figcaption {
@@ -144,4 +146,8 @@ figcaption {
     .flex-container, .img-container, .content {
         display: flex;
     }
+    .img-col, figure, #gold-atomizer {
+        width: auto;
+    }
+
 }
