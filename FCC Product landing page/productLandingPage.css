@@ -95,7 +95,7 @@ h5 {
 }
 
 .content {
-    display: flex;
+    display: block;
     background: lightslategrey;   
     height: auto;
 }
@@ -114,7 +114,8 @@ h5 {
 .product-imgs {
     background: linear-gradient(rgba(243, 69, 69, 0.1),
     rgba(20, 20, 20, .5)), url("https://static.turbosquid.com/Preview/2017/01/15__12_59_53/minter24_002.jpg7F9DA71D-31A6-4D76-B088-14C9E689DA60DefaultHQ.jpg");
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .img-col {
@@ -130,7 +131,7 @@ figcaption {
 }
 
 .img-col-info {
-    margin: 90px auto auto auto;
+    margin: auto auto auto auto;
     padding-left: 20px;
 }
 
@@ -139,8 +140,8 @@ figcaption {
 }
 
 
-@media screen and (min-width: 640px) {
-    .flex-container, .img-container {
+@media screen and (min-width: 1214px) {
+    .flex-container, .img-container, .content {
         display: flex;
     }
 }
