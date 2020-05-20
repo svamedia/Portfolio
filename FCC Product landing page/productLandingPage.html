@@ -16,19 +16,26 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <header id="header">
+    <!-- Main Content -->
+    <main>
+        <!-- <div class="container-fluid"> -->
+        <!-- Header -->
+        <header class="header" id="header">
             <!-- Nav bar start -->
             <nav class="navbar navbar-expand-md navbar-light bg-light navbar-fixed-top">
                 <!-- Company Brand -->
-                <a class="navbar navbar-brand" href="#header">
-                    <img id="header-img" src="https://gnln.com/wp-content/uploads/2019/03/puffco-peak_.png"
-                        alt="Puffco Logo">
-                </a>
-                <!-- Mobile collapse button -->
-                <button class="navbar-toggler" type="button">
-                    <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarMenu"></span>
-                </button>
+                <div class="flex-brand">
+                    <a class="navbar navbar-brand" href="#header">
+                        <img class="img-responsive" id="header-img"
+                            src="https://gnln.com/wp-content/uploads/2019/03/puffco-peak_.png" alt="Puffco Logo">
+                    </a>
+                </div>
+                <div class="collapse-btn">
+                    <!-- Mobile collapse button -->
+                    <button class="navbar-toggler" type="button">
+                        <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarMenu"></span>
+                    </button>
+                </div>
                 <!-- Inside collapse button  -->
                 <div class="collapse navbar-collapse" id="navbarMenu">
                     <!-- Navigation Items -->
@@ -40,25 +47,89 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#pricing">Pricing</a></li>
                     </ul>
-                    <!-- navbar collapse  -->
                 </div>
             </nav>
         </header>
 
-
-
-
-        <!-- Video content -->
-
-        <!-- Product Features -->
+        <!-- Hero -->
+        <section class="hero-image">
+            <div class="hero-text">
+                <h1>Puffco Peak</h1>
+                <p>It's the new wave...
+                </p>
+                <button>Shop Now</button>
+            </div>
+        </section>
 
         <!-- Email Form  -->
+        <section class="email-signup">
+            <form class="email">
+                <p>Sign up today to receive discounts and special promos!</p>
+                <label for="email">Email:</label>
+                <input type="email" id="emailCap" name="email" placeholder="Enter your email!">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <section class="content" id="features">
+            <div class="product-desc">
+                <h5>Technology</h5>
+                <ul>
+                    <li>4 UNIQUE USER HEAT SETTINGS
+                        <p>Beginner or expert, small or big loads, flavor or big clouds, no matter how you like to
+                            consume there is a perfect setting for you. Sesh-mode also lets you extend your session,
+                            creating the first social dab experience.</p>
+                    </li>
+                    <li>20 SECOND AVERAGE HEAT-UP
+                        <p>Compare this to the 3 minute process and cooling times with typical dab rigs. This means more
+                            consumption and less waiting.</p>
+                    </li>
+                    <li>INTELLIGENT TEMPERATURE CALIBRATION
+                        <p>The smartware automatically adjusts heat times if your bowl is still hot. This provides a
+                            more consistent experience during repeated use and sesh-mode.</p>
+                    </li>
+                    <li>LED LIGHT BAND / HAPTIC FEEDBACK
+                        <p>The descreet light band provides batter and heat cycle indicators when needed, and conceals
+                            itself when they're not. Haptic feedback keeps your timing spot on so you're getting the
+                            perfect hit.</p>
+                    </li>
+                    <li>FAST CHARGING / LONG LASTING
+                        <p>The battery fully charges in 2 hours when using the supercharger. It lasts around 30 dabs.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--  Sidebar / Product Features -->
+        <section class="product-imgs">
+            <!-- row -->
+            <div class="img-container">
+                <!-- column -->
+                <div class="img-col">
+                    <figure>
+                        <img id="gold-atomizer" src="https://lbrit.co/static/imgs//products/medusa-600x600.jpg" alt="">
+                        <figcaption>Display of rose gold atomizer.</figcaption>
+                    </figure>
+                </div>
+                <div class="img-col-info">
+                    <h5>THE PEAK - SMART RIG</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam ducimus alias, voluptates impedit, culpa incidunt, officiis beatae inventore illum expedita? Doloribus laborum blanditiis debitis dolore dolor saepe atque, alias tenetur ipsa officia iure eum reprehenderit nam ipsum tempora exercitationem cumque suscipit praesentium vero incidunt iusto. Repellendus, nesciunt voluptatem voluptatum unde enim minima ipsa nulla vero quasi tempora est eveniet?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam ducimus alias, voluptates impedit, culpa incidunt, officiis beatae inventore illum expedita? Doloribus laborum blanditiis debitis dolore dolor saepe atque, alias tenetur ipsa officia iure eum reprehenderit nam ipsum tempora exercitationem cumque suscipit praesentium vero incidunt iusto. Repellendus, nesciunt voluptatem voluptatum unde enim minima ipsa nulla vero quasi tempora est eveniet?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam ducimus alias, voluptates impedit, culpa incidunt, officiis beatae inventore illum expedita? Doloribus laborum blanditiis debitis dolore dolor saepe atque, alias tenetur ipsa officia iure eum reprehenderit nam ipsum tempora exercitationem cumque suscipit praesentium vero incidunt iusto. Repellendus, nesciunt voluptatem voluptatum unde enim minima ipsa nulla vero quasi tempora est eveniet?</p>
+                </div>
+            </div>
+        </section>
 
         <!-- Pricing -->
-
+      
         <!-- Footer -->
+        <footer class="footer">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </footer>
+        <!-- </div> -->
+    </main>
 
-    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

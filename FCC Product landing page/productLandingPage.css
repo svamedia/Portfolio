@@ -1,31 +1,158 @@
 * {
-    box-sizing: border-box;
     font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-* ::before {
-    box-sizing: border-box;
-}
-
-* ::after {
-    box-sizing: border-box;
-}
-
-body {
-    display: flex;
-}
-
-#header-img {
-    max-height: 100%;
-    width: 17rem;
-}
-
-.navbar-brand {
+main,
+section,
+aside,
+footer {
     margin: 0;
-    padding: 0;
+    padding: 10px;
+    /* border: 1px solid #000000; */
+    color: #ffffff;
 }
 
-.nav a {
-    font-size: 1.2rem;
+main {
+    background: #ffffff;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+ul li a {
+    font-size: 1.3rem !important;
+}
+
+h5 {
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+.header {
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+
+.img-responsive {
+    max-width: 100%;
+    max-height: 8vh;
+}
+
+.collapse-btn {
+    margin-left: auto;
+}
+
+.hero-image {
+    display: flex;
+    background: linear-gradient(rgba(20, 20, 20, .3),
+            rgba(20, 20, 20, .3)),
+        url("https://images.unsplash.com/photo-1578070435774-95972f3321c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100wh;
+}
+
+.hero-text {
+    margin: auto;
+    justify-content: center;
+    flex-basis: 40%;
+    color: #ffffff;
+}
+
+.hero-text button {
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+}
+
+.hero-text h1 {
+    font-size: 6rem;
+}
+
+.hero-text p {
+    font-size: 2rem;
+}
+
+.email-signup {
+    display: flex;
+    flex-flow: row nowrap;
+    color: black;
+    background: lightgray;
+    height: auto;
+}
+
+.email {
+    margin: auto;
+}
+
+#emailCap {
+    width: 60%;
+}
+
+.content {
+    display: block;
+    background: lightslategrey;   
+    height: auto;
+}
+
+.product-desc {
+    flex-flow: column nowrap;
+    height: auto;
+    margin: auto;
+    text-align: center;   
+}
+
+.product-desc ul {
+    text-align: left;
+}
+
+.product-imgs {
+    background: linear-gradient(rgba(243, 69, 69, 0.1),
+    rgba(20, 20, 20, .5)), url("https://static.turbosquid.com/Preview/2017/01/15__12_59_53/minter24_002.jpg7F9DA71D-31A6-4D76-B088-14C9E689DA60DefaultHQ.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-col {
+    padding: 5px;
+}
+
+.img-col, figure, #gold-atomizer {
+    border-radius: 50%;
+    width: 300px;
+    margin: auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.img-col-info {
+    margin: auto auto auto auto;
+    padding-left: 20px;
+}
+
+.footer {
+    background: #616161;
+}
+
+@media screen and (min-width: 400px){
+    .email-signup {
+        padding: 25px;
+    }
+}
+
+@media screen and (min-width: 1214px) {
+    .flex-container, .img-container, .content {
+        display: flex;
+    }
+    .img-col, figure, #gold-atomizer {
+        width: auto;
+    }
+
 }
