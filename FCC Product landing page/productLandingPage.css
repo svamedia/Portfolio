@@ -141,6 +141,11 @@ figcaption {
     background: #616161;
 }
 
+@media screen and (min-width: 400px){
+    .email-signup {
+        padding: 25px;
+    }
+}
 
 @media screen and (min-width: 1214px) {
     .flex-container, .img-container, .content {
