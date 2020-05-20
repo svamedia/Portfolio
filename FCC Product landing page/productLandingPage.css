@@ -83,7 +83,7 @@ h5 {
     flex-flow: row nowrap;
     color: black;
     background: lightgray;
-    height: 15vh;
+    height: auto;
 }
 
 .email {
