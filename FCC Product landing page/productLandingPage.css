@@ -137,6 +137,17 @@ figcaption {
     padding-left: 20px;
 }
 
+.pricing-cards {
+    background: gray;
+}
+
+.img-card img {
+    height: 420px;
+    width: auto;
+    background: whitesmoke;
+    border-radius: 50%;
+}
+
 .footer {
     background: #616161;
 }
@@ -148,7 +159,7 @@ figcaption {
 }
 
 @media screen and (min-width: 1214px) {
-    .flex-container, .img-container, .content {
+    .flex-container, .img-container, .content, .pricing-cards {
         display: flex;
     }
     .img-col, figure, #gold-atomizer {
