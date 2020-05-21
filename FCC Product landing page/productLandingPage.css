@@ -141,6 +141,12 @@ figcaption {
     background: gray;
 }
 
+.img-card {
+    width: auto;
+    padding: 20px;
+    flex: 1;
+}
+
 .img-card img {
     height: 420px;
     width: auto;
