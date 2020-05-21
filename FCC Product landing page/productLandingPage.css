@@ -139,17 +139,15 @@ figcaption {
 
 .pricing-cards {
     background: lightslategrey;
+    justify-content: space-between;
 }
 
 .img-card {
-    width: auto;
     padding: 20px;
-    flex: 1;
 }
 
 .img-card img {
     height: 420px;
-    width: auto;
     background: whitesmoke;
     border-radius: 50%;
 }
