@@ -139,15 +139,16 @@ figcaption {
 
 .pricing-cards {
     background: lightslategrey;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .img-card {
     padding: 20px;
+    text-align: center;
 }
 
 .img-card img {
-    height: 420px;
+    height: 300px;
     background: whitesmoke;
     border-radius: 50%;
 }
@@ -162,12 +163,27 @@ figcaption {
     }
 }
 
+@media screen and (min-width: 768px){
+    .pricing-cards {
+        display: flex;
+    }
+    .img-card img {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 828px){
+    .img-card img {
+        height: 300px;
+    }
+}
+
 @media screen and (min-width: 1214px) {
     .flex-container, .img-container, .content, .pricing-cards {
         display: flex;
     }
     .img-col, figure, #gold-atomizer {
-        width: auto;
+        width: 420px;
     }
 
 }
