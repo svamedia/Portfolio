@@ -168,6 +168,11 @@ figcaption {
     color: black;
 }
 
+.footer p {
+    margin: 0;
+    text-align: center;
+}
+
 @media screen and (min-width: 400px){
     .email-signup {
         padding: 25px;
