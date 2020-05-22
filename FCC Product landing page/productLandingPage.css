@@ -99,6 +99,11 @@ h6 {
     width: 60%;
 }
 
+#emailButton {
+    width: 50px;
+    padding: 10px !important;
+}
+
 .content {
     display: block;
     background: lightslategrey;   
@@ -171,6 +176,10 @@ figcaption {
 .footer p {
     margin: 0;
     text-align: center;
+}
+
+a {
+    color: black;
 }
 
 @media screen and (min-width: 400px){
