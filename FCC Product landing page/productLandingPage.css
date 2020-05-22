@@ -31,6 +31,10 @@ h5 {
     text-align: center;
 }
 
+h6 {
+    margin-top: 10px;
+}
+
 .header {
     flex-flow: row nowrap;
     justify-content: flex-end;
@@ -68,10 +72,11 @@ h5 {
 .hero-text button {
     padding: 10px 20px 10px 20px;
     margin: auto;
+    display: flex;
 }
 
 .hero-text h1 {
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 .hero-text p {
@@ -92,6 +97,11 @@ h5 {
 
 #emailCap {
     width: 60%;
+}
+
+#emailButton {
+    width: 50px;
+    padding: 10px !important;
 }
 
 .content {
@@ -137,8 +147,39 @@ figcaption {
     padding-left: 20px;
 }
 
+.pricing-cards {
+    background: lightslategrey;
+    justify-content: space-evenly;
+}
+
+.img-card {
+    padding: 20px;
+    text-align: center;
+}
+
+.img-card img {
+    height: 300px;
+    background: whitesmoke;
+    border-radius: 50%;
+}
+
+.card-details-list {
+    padding: 0;
+}
+
 .footer {
-    background: #616161;
+    padding: 3px;
+    background: lightgray;
+    color: black;
+}
+
+.footer p {
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    color: black;
 }
 
 @media screen and (min-width: 400px){
@@ -147,12 +188,30 @@ figcaption {
     }
 }
 
+@media screen and (min-width: 768px){
+    .pricing-cards {
+        display: flex;
+    }
+    .img-card img {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 828px){
+    .img-card img {
+        height: 300px;
+    }
+    .hero-card h1 {
+        font-size: 6rem;
+    }
+}
+
 @media screen and (min-width: 1214px) {
-    .flex-container, .img-container, .content {
+    .flex-container, .img-container, .content, .pricing-cards {
         display: flex;
     }
     .img-col, figure, #gold-atomizer {
-        width: auto;
+        width: 420px;
     }
 
 }

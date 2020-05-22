@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Font Awesome CSS -->
+    <script src="https://kit.fontawesome.com/5df0178820.js" crossorigin="anonymous"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -41,7 +44,7 @@
                     <!-- Navigation Items -->
                     <ul class="nav navbar-nav ml-auto list-unstyled">
                         <li class="nav-item">
-                            <a class="nav-link" href="#video" active>Videos</a></li>
+                            <a class="nav-link" href="https://www.youtube.com/results?search_query=puffco+peak" target="_blank" active><i class="fab fa-youtube"></i> Videos</a></li>
                         <li class="nav-item">
                             <a class="nav-link" href="#features">Features</a></li>
                         <li class="nav-item">
@@ -57,7 +60,7 @@
                 <h1>Puffco Peak</h1>
                 <p>It's the new wave...
                 </p>
-                <button>Shop Now</button>
+                <button type="button" class="btn btn-primary">Shop Now</button>
             </div>
         </section>
 
@@ -67,7 +70,8 @@
                 <p>Sign up today to receive discounts and special promos!</p>
                 <label for="email">Email:</label>
                 <input type="email" id="emailCap" name="email" placeholder="Enter your email!">
-                <input type="submit" value="Submit">
+                <button id="emailButton" type="button" value="submit" class="btn btn-success"><i class="far fa-paper-plane"></i></button>
+                <!-- <input type="submit" value="Submit" class="btn btn-success"> -->
             </form>
         </section>
 
@@ -75,25 +79,25 @@
             <div class="product-desc">
                 <h5>Technology</h5>
                 <ul>
-                    <li>4 UNIQUE USER HEAT SETTINGS
+                    <li><i class="fas fa-fire"></i> 4 UNIQUE USER HEAT SETTINGS
                         <p>Beginner or expert, small or big loads, flavor or big clouds, no matter how you like to
                             consume there is a perfect setting for you. Sesh-mode also lets you extend your session,
                             creating the first social dab experience.</p>
                     </li>
-                    <li>20 SECOND AVERAGE HEAT-UP
+                    <li><i class="fas fa-stopwatch-20"></i> 20 SECOND AVERAGE HEAT-UP
                         <p>Compare this to the 3 minute process and cooling times with typical dab rigs. This means more
                             consumption and less waiting.</p>
                     </li>
-                    <li>INTELLIGENT TEMPERATURE CALIBRATION
+                    <li><i class="fas fa-thermometer-half"></i> INTELLIGENT TEMPERATURE CALIBRATION
                         <p>The smartware automatically adjusts heat times if your bowl is still hot. This provides a
                             more consistent experience during repeated use and sesh-mode.</p>
                     </li>
-                    <li>LED LIGHT BAND / HAPTIC FEEDBACK
+                    <li><i class="far fa-lightbulb"></i> LED LIGHT BAND / HAPTIC FEEDBACK
                         <p>The descreet light band provides batter and heat cycle indicators when needed, and conceals
                             itself when they're not. Haptic feedback keeps your timing spot on so you're getting the
                             perfect hit.</p>
                     </li>
-                    <li>FAST CHARGING / LONG LASTING
+                    <li><i class="fas fa-bolt"></i> FAST CHARGING / LONG LASTING
                         <p>The battery fully charges in 2 hours when using the supercharger. It lasts around 30 dabs.
                         </p>
                     </li>
@@ -122,10 +126,47 @@
         </section>
 
         <!-- Pricing -->
-      
+        <section class="pricing-cards" id="pricing">
+            <div class="img-card" id="infraredPeak">
+                <img src="https://headstashbcn.com/wp-content/uploads/2019/11/puffco-puffco-peak-vision-lightning-edition.jpg.png" alt="Infrared Atomizer">
+                <div class="card-details">
+                    <h6>Infrared Peak</h6>
+                    <ul class="card-details-list">
+                        <li>Shiny Chromatic Finish</li>
+                        <li>Green Glow-in-the-dark Glass</li>
+                        <li>$459.99</li>
+                        <button type="button" class="btn btn-primary">Buy Now</button>
+                    </ul>
+                </div>
+            </div>
+            <div class="img-card" id="skyBluePeak">
+                <img src="https://smokewrap.com/pub/media/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/p/u/puffco-peak-lightning-edition-weed-vape-smart-rig-blue.png" alt="Sky Blue Atomizer">
+                <div class="card-details">
+                    <h6>Sky Blue Peak</h6>
+                    <ul class="card-details-list">
+                        <li>Sky/Dark Blue Finish</li>
+                        <li>Accessory Kit Included</li>
+                        <li>$549.99</li>
+                        <button type="button" class="btn btn-primary">Buy Now</button>
+                    </ul>
+                </div>
+            </div>
+            <div class="img-card" id="sunsetPeak">
+                <img src="https://cdn.shopify.com/s/files/1/0319/5549/products/Sunset_Website_Gallery_Product_Images_34_1024x1024.png?v=1569018515" alt="Sunset Atomizer">
+                <div class="card-details">
+                    <h6>Dark Sunset Peak</h6>
+                    <ul class="card-details-list">
+                        <li>Dark/Pink Contrast Finish</li>
+                        <li>Limited Edition Peak </li>
+                        <li>$499.99</li>
+                        <button type="button" class="btn btn-primary">Buy Now</button>
+                    </ul>
+                </div>
+            </div>
+        </section>
         <!-- Footer -->
         <footer class="footer">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <p>Website made by: <a href="https://codepen.io/sebas13305" target="_blank">SVA MEDIA <i class="fas fa-globe-americas"></i></a> | Product and Images belong to: <a href="https://www.puffco.com/products/the-peak" target="_blank">PUFFCO <i class="fas fa-smog"></i></a></p>
         </footer>
         <!-- </div> -->
     </main>
