@@ -13,6 +13,11 @@ footer {
     color: #ffffff;
 }
 
+#nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
 main {
     background: #ffffff;
 }
