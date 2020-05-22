@@ -72,10 +72,11 @@ h6 {
 .hero-text button {
     padding: 10px 20px 10px 20px;
     margin: auto;
+    display: flex;
 }
 
 .hero-text h1 {
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 .hero-text p {
@@ -185,6 +186,9 @@ figcaption {
 @media screen and (min-width: 828px){
     .img-card img {
         height: 300px;
+    }
+    .hero-card h1 {
+        font-size: 6rem;
     }
 }
 
