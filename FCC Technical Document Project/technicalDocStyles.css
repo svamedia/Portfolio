@@ -44,10 +44,14 @@ ul {
     flex: 1;
     padding-top: 50px;
     padding-left: 50px;
+    color: white;
     background-color: seagreen;
 }
 
 #main-doc header {
     font-size: 3rem;
-    color: white;
+}
+
+section article {
+    margin: 15px;
 }
