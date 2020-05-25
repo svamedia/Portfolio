@@ -13,7 +13,10 @@ body {
 #navbar {
     flex-flow: column nowrap;
     flex-basis: 338.25px;
-    border-right: 1px solid black;
+    position: fixed;
+    min-width: 290px;
+    width: 300px;
+    height: 100%;
     border-bottom: 1px solid black;
 }
 
@@ -27,22 +30,24 @@ body {
 #navbar ul {
     list-style-type: none;
     padding: 0;
+    height: 88%;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .nav-link {
     border-top: 1px solid black;
-    border-bottom: 1px thin black;
     color: black;
     font-size: 1.4rem;
     padding-top: 10px;
-    padding-bottom: 11px;
 }
 
 #main-doc {
     flex-flow: column nowrap;
     flex: 1;
-    padding-top: 50px;
-    padding-left: 50px;
+    position: absolute;
+    margin-left: 300px;
+    padding: 50px;
     color: white;
     background-color: seagreen;
 }
