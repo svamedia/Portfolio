@@ -17,6 +17,7 @@ ul {
 #navbar {
     flex-direction: column;
     border-right: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 #navbar_header {
