@@ -15,8 +15,9 @@ ul {
 }
 
 #navbar {
-    flex-direction: column;
-    height: 100vh;
+    flex-flow: column nowrap;
+    flex-basis: 338.25px;
+    height: 100%;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
 }
@@ -38,5 +39,7 @@ ul {
 }
 
 #main-doc {
-    flex-direction: column;
+    flex-flow: column nowrap;
+    flex: 1;
+    background-color: maroon;
 }
