@@ -31,3 +31,7 @@ ul {
     border-bottom: 1px thin black;
     color: black;
 }
+
+#main-doc {
+    flex-direction: column;
+}
