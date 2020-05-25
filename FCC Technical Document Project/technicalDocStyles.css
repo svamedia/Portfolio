@@ -25,3 +25,9 @@ ul {
     padding: 7px;
     border-bottom: 1px solid black;
 }
+
+.nav-link {
+    border-top: 1px solid black;
+    border-bottom: 1px thin black;
+    color: black;
+}
