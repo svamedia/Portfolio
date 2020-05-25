@@ -10,11 +10,6 @@ body {
     display: flex;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
 #navbar {
     flex-flow: column nowrap;
     flex-basis: 338.25px;
@@ -28,6 +23,11 @@ ul {
     font-size: 1.9rem;
     padding: 7px;
     border-bottom: 1px solid black;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 .nav-link {
