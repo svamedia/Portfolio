@@ -42,12 +42,12 @@ ul {
 #main-doc {
     flex-flow: column nowrap;
     flex: 1;
+    padding-top: 50px;
+    padding-left: 50px;
     background-color: seagreen;
 }
 
 #main-doc header {
-    padding-top: 50px;
-    padding-left: 50px;
     font-size: 3rem;
     color: white;
 }
