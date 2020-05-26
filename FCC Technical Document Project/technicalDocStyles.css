@@ -10,6 +10,10 @@ body {
     display: flex;
 }
 
+a {
+    color: black;
+}
+
 #navbar {
     flex-flow: column nowrap;
     flex-basis: 338.25px;
