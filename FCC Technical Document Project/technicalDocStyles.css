@@ -1,0 +1,99 @@
+* {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+    display: flex;
+}
+
+a {
+    color: black;
+}
+
+#navbar {
+    flex-flow: column nowrap;
+    position: fixed;
+    min-width: 290px;
+    width: 300px;
+    height: 100%;
+    border-bottom: 1px solid black;
+}
+
+.navbar_logo {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.navbar_logo img {
+    width: 100px;
+}
+
+.navbar_header {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
+    height: 88%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.nav-link {
+    border-top: 1px solid black;
+    color: black;
+    font-size: 1.4rem;
+    padding-top: 10px;
+}
+
+#main-doc {
+    flex-flow: column nowrap;
+    flex: 1;
+    position: absolute;
+    margin-left: 300px;
+    padding: 50px;
+    color: white;
+    background-color: seagreen;
+}
+
+.JS_Logo {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.JS_Logo img {
+    height: 150px;
+}
+
+#main-doc header {
+    font-size: 3rem;
+}
+
+section article {
+    margin: 15px;
+}
+
+code {
+    display: block;
+    line-height: 2;
+    line-break: normal;
+    white-space: pre;
+    position: relative;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+@media screen and (max-width: 375px) {
+
+}
