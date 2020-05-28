@@ -16,7 +16,6 @@ a {
 
 #navbar {
     flex-flow: column nowrap;
-    flex-basis: 338.25px;
     position: fixed;
     min-width: 290px;
     width: 300px;
@@ -37,7 +36,6 @@ a {
     text-align: center;
     font-size: 1.5rem;
     padding: 20px;
-    
 }
 
 #navbar ul {
@@ -94,4 +92,8 @@ code {
     padding: 15px;
     border-radius: 5px;
     background-color: #f7f7f7;
+}
+
+@media screen and (max-width: 375px) {
+
 }
