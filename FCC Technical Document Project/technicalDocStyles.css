@@ -24,7 +24,7 @@ a {
     border-bottom: 1px solid black;
 }
 
-#navbar_header {
+.navbar_header {
     text-align: center;
     font-size: 1.9rem;
     padding: 7px;
