@@ -101,6 +101,26 @@ code {
     background-color: #f7f7f7;
 }
 
+@media screen and (min-width: 320px) {
+    .navbar-toggler {
+        padding-left: 33%;
+        padding-right: 28%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-toggler {
+        padding-left: 41%;
+        padding-right: 36%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar-toggler {
+        padding-left: 43%;
+    }
+}
+
 @media screen and (min-width: 1025px) {
     body {
         display: flex; 
