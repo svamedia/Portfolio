@@ -41,8 +41,8 @@ a {
 
 .navbar-toggler-icon {
     background-image: url("https://b.kisscc0.com/20180815/zlq/kisscc0-computer-icons-logo-brand-javascript-angle-js-5b741783856f77.0690615715343348515466.png");
-    width: 6.5em !important;
-    height: 7.5em !important;
+    width: 6.5em;
+    height: 7.5em;
 }
 
 .no-float {
@@ -111,6 +111,14 @@ code {
         min-width: 290px;
         width: 300px;
         height: 100%;
+    }
+    .navbar-toggler {
+        padding-left: 40%;
+        padding-right: 37%;
+    }
+    .navbar-toggler-icon {
+        width: 155px;
+        height: 160px;
     }
     .nav-link {
         font-size: 1.3rem;
