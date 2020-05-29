@@ -125,7 +125,6 @@ code {
         display: flex;
         flex-flow: column nowrap;
         min-width: 290px;
-        height: 100%;
     }
     .navbar-toggler {
         padding-left: 40%;
