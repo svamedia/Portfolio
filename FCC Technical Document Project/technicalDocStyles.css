@@ -7,7 +7,6 @@ body {
     margin: 0;
     padding: 0;
     line-height: 2;
-    display: flex;
 }
 
 a {
@@ -15,12 +14,7 @@ a {
 }
 
 #navbar {
-    flex-flow: column nowrap;
-    position: fixed;
-    min-width: 290px;
-    width: 300px;
-    height: 100%;
-    border-bottom: 1px solid black;
+    text-align: center;
 }
 
 .navbar_logo {
@@ -54,11 +48,7 @@ a {
 }
 
 #main-doc {
-    flex-flow: column nowrap;
-    flex: 1;
-    position: absolute;
-    margin-left: 300px;
-    padding: 50px;
+    padding: 5%;
     color: white;
     background-color: seagreen;
 }
@@ -75,7 +65,7 @@ a {
 }
 
 #main-doc header {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 section article {
@@ -86,7 +76,7 @@ code {
     display: block;
     line-height: 2;
     line-break: normal;
-    white-space: pre;
+    /* white-space: pre; */
     position: relative;
     margin: 10px;
     padding: 15px;
@@ -94,6 +84,25 @@ code {
     background-color: #f7f7f7;
 }
 
-@media screen and (max-width: 375px) {
-
+@media screen and (min-width: 1025px) {
+    body {
+        display: flex; 
+    }
+    #navbar {
+        flex-flow: column nowrap;
+        position: fixed;
+        min-width: 290px;
+        width: 300px;
+        height: 100%;
+    }
+    #main-doc {
+        flex-flow: column nowrap;
+        flex: 1;
+        position: absolute;
+        margin-left: 300px;
+        padding: 2%
+    }
+    #main-doc header {
+        font-size: 3rem;
+    }
 }
