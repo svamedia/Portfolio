@@ -69,15 +69,9 @@ a {
     background-color: seagreen;
 }
 
-.JS_Logo {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    padding-bottom: 15px;
-}
-
-.JS_Logo img {
-    height: 150px;
+#main-doc button {
+    color: white;
+    font-size: .9rem;
 }
 
 #main-doc header {
