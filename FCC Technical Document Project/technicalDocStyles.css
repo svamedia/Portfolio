@@ -7,7 +7,6 @@ body {
     margin: 0;
     padding: 0;
     line-height: 2;
-    display: flex;
 }
 
 a {
@@ -15,17 +14,14 @@ a {
 }
 
 #navbar {
-    flex-flow: column nowrap;
-    position: fixed;
-    min-width: 290px;
-    width: 300px;
-    height: 100%;
-    border-bottom: 1px solid black;
+    justify-content: center;
 }
 
 .navbar_logo {
     display: flex;
     flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .navbar_logo img {
@@ -35,7 +31,22 @@ a {
 .navbar_header {
     text-align: center;
     font-size: 1.5rem;
-    padding: 20px;
+    padding-left: 5px;
+}
+
+.navbar-toggler {
+    padding-left: 35%;
+    padding-right: 36%;
+}
+
+.navbar-toggler-icon {
+    background-image: url("https://b.kisscc0.com/20180815/zlq/kisscc0-computer-icons-logo-brand-javascript-angle-js-5b741783856f77.0690615715343348515466.png");
+    width: 6.5em;
+    height: 7.5em;
+}
+
+.no-float {
+    float: none !important;
 }
 
 #navbar ul {
@@ -47,35 +58,24 @@ a {
 }
 
 .nav-link {
-    border-top: 1px solid black;
     color: black;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     padding-top: 10px;
 }
 
 #main-doc {
-    flex-flow: column nowrap;
-    flex: 1;
-    position: absolute;
-    margin-left: 300px;
-    padding: 50px;
+    padding: 5%;
     color: white;
     background-color: seagreen;
 }
 
-.JS_Logo {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    padding-bottom: 15px;
-}
-
-.JS_Logo img {
-    height: 150px;
+#main-doc button {
+    color: white;
+    font-size: .9rem;
 }
 
 #main-doc header {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 section article {
@@ -86,7 +86,7 @@ code {
     display: block;
     line-height: 2;
     line-break: normal;
-    white-space: pre;
+    /* white-space: pre; */
     position: relative;
     margin: 10px;
     padding: 15px;
@@ -94,6 +94,49 @@ code {
     background-color: #f7f7f7;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 320px) {
+    .navbar-toggler {
+        padding-left: 33%;
+        padding-right: 28%;
+    }
+}
 
+@media screen and (min-width: 768px) {
+    .navbar-toggler {
+        padding-left: 41%;
+        padding-right: 36%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar-toggler {
+        padding-left: 43%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    #navbar {
+        display: flex;
+        flex-flow: column nowrap;
+        min-width: 290px;
+        text-align: center
+    }
+    .navbar-toggler {
+        padding-left: 40%;
+        padding-right: 37%;
+    }
+    .navbar-toggler-icon {
+        width: 155px;
+        height: 160px;
+    }
+    .nav-link {
+        font-size: 1.3rem;
+    }
+    #main-doc {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    #main-doc header {
+        font-size: 3rem;
+    }
 }
